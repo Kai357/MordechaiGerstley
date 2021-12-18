@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kais Portfolio</title>
+  </head>
+  <body>
+    <main>
+      <div class="type X-Mytech">
+        <h1>
+          <a
+            href=""
+            class="typewrite"
+            data-period="2000"
+            data-type='[ "{ My Name is Mordechai Gerstley. }", "{ I`m a front-end software developer. }", "{ I Love Design. }", "{ I Love to Develop. }" ]'
+          >
+            <span class="wrap"></span>
+          </a>
+        </h1>
+      </div>
+      <div class="buttons X-Mytech">
+        <div class="wrap">
+          <button class="button" id="TechBtn" onclick="Mytech()">
+            My Techenologies
+          </button>
+          <button class="button" id="Project_btn">My Projects</button>
+          <button class="button" id="Contact_btn">My Contact Page</button>
+        </div>
+        <ul class="tech_list">
+          <title>Here are the many techenologies ive worked with before:</title>
+          <li>Html</li>
+          <li>Css</li>
+          <li>JavaScript</li>
+          <li>Ruby on Rails</li>
+          <li>Npm</li>
+          <li>Node.js</li>
+          <li>Json</li>
+          <li>React</li>
+          <li>Mongo.Db</li>
+          <li>MySql</li>
+          <li>Express</li>
+          <li>Regex</li>
+        </ul>
+      </div>
+      <h2 class="projects_intro X-Mytech">Here are some of my projects</h2>
+      <nav class="portfolio">
+        <ul>
+          <title>Projects</title>
+          <li>portfolio item 1</li>
+          <li>portfolio item 2</li>
+          <li>portfolio item 3</li>
+          <li>portfolio item 4</li>
+          <li>portfolio item 5</li>
+          <li>portfolio item 6</li>
+          <li>portfolio item 7</li>
+        </ul>
+      </nav>
+      <div class="coding_box">coding box</div>
+      <div class="selfie">
+        <img src="assets/pro_profile-removebg.png" alt="Mordechai Gerstley" />
+      </div>
+      <form class="contact X-Mytech">
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" />
+        <input type="email" />
+        <input type="tel" />
+        <input type="submit" />
+      </form>
+    </main>
+  </body>
+  <script src="index.js"></script>
+</html>
