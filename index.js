@@ -1,3 +1,10 @@
+var btn = document.getElementById("TechBtn");
+btn.onclick = function MyTech() {
+  btn.addEventListener("click", function () {
+    document.getElementById("words").style.display = "none";
+  });
+};
+
 var TxtType = function (el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
@@ -55,8 +62,4 @@ window.onload = function () {
   css.type = "text/css";
   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
   document.body.appendChild(css);
-};
-
-window.onclick = function MyTech() {
-  document.getElementsByClassName("X-Mytech").style.display = "none";
 };
