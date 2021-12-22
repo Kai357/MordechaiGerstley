@@ -1,9 +1,9 @@
-var btn = document.getElementById("TechBtn");
-btn.onclick = function MyTech() {
-  btn.addEventListener("click", function () {
-    document.getElementById("words").style.display = "none";
-  });
-};
+//var btn = document.getElementById("TechBtn");
+//btn.onclick = function MyTech() {
+//btn.addEventListener("click", function () {
+//document.getElementById("words").style.display = "none";
+//});
+//};
 
 var TxtType = function (el, toRotate, period) {
   this.toRotate = toRotate;
